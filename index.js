@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const mysql = require('mysql');
+var cors = require('cors');
 const moment = require('moment');
 const PORT = process.env.PORT || 5000;
 
@@ -20,6 +21,7 @@ const logger = (req, res, next)=> {
 }
 
 app.use(logger);
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
