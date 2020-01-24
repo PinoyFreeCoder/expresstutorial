@@ -4,7 +4,7 @@ Sa lesson nato gagawa tayo ng sarili nating API or Application Programming Inter
 
 ## Getting Started
 
-Download the this repository or clone it using Git Clone
+Download this repository or clone it using Git Clone
 
 ```
 $ git https://github.com/PinoyFreeCoder/expresstutorial.git
