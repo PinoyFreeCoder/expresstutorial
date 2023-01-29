@@ -1,20 +1,29 @@
 {
-  "name": "framework",
+  "name": "expresstutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sa lesson nato gagawa tayo ng sarili nating API or Application Programming Interface gamit ang nodejs package na Express at MySQL database.",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start" : "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirk-admin/expresstutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirk-admin/expresstutorial/issues"
+  },
+  "homepage": "https://github.com/kirk-admin/expresstutorial#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "moment": "^2.24.0",
-    "mysql": "^2.17.1",
-    "nodemon": "^2.0.2"
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "portfinder": "^1.0.32"
   }
 }
